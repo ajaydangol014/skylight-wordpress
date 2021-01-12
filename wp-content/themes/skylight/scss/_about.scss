@@ -1,0 +1,58 @@
+// for home page
+
+.about-title {
+  font-family: "Playfair Display";
+  font-size: 6.5em;
+  position: relative;
+  z-index: 1;
+  span {
+    white-space: nowrap;
+  }
+}
+
+.about-description {
+  max-width: 490px;
+}
+
+.about-img {
+  position: relative;
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translate(20px, -20px);
+    border: 1px solid #84838d;
+  }
+}
+.about {
+  .btn-more {
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    font-size: 1.3rem;
+  }
+}
+
+// for inner page
+
+
+
+// @media screen and (min-width: 768px) {
+//   .page-content {
+//     @for $i from 1 through 6 {
+//       h#{$i},
+//       p {
+//         max-width: (100/12)* 8%;
+//         margin: 0 auto;
+//       }
+//     }
+//     img{
+//       display: block;
+//       max-width: (100/12)* 10%;
+//       margin: 0 auto;
+//     }
+//   }
+// }

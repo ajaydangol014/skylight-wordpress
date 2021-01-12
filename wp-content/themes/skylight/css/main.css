@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap");
+h1 {
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+
+h4 {
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+
+h5 {
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+
+h6 {
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #ffffff;
+  background: #494761; }
+
+::selection {
+  color: #ffffff;
+  background: #494761; }
+
+* {
+  letter-spacing: 0.5px; }
+
+.wp-caption {
+  width: unset !important; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.section-title {
+  font-family: 'Playfair Display';
+  font-size: 2.6rem;
+  margin-bottom: 3.25rem; }
+
+blockquote {
+  font-family: 'Playfair Display';
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px 20px; }
+
+figcaption {
+  font-family: 'Roboto condensed';
+  font-weight: bold; }
+
+.page-title {
+  font-family: 'Playfair Display';
+  font-size: 3.5rem; }
+
+.page-section {
+  padding: 40px 0; }
+  .page-section.about {
+    padding: 80px 0 80px; }
+
+.inner-page-section {
+  position: relative;
+  padding-bottom: 100px; }
+  .inner-page-section:after {
+    content: '';
+    opacity: 0.4;
+    display: block;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: url("../img/architecture.png") no-repeat 100% 100%;
+    background-size: contain; }
+
+.navigation-bar {
+  font-family: "Roboto Condensed"; }
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.dropdown-menu {
+  border: 0;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1); }
+
+.dropdown-item {
+  font-weight: 300; }
+
+.dropdown-toggle:after {
+  background: url("../img/icons/angle-down.png");
+  border: 0;
+  background-size: cover;
+  height: 10px;
+  width: 10px;
+  position: relative;
+  top: 3px; }
+
+.nav-item {
+  padding-right: 10px; }
+  .nav-item.current-menu-item .nav-link, .nav-item.show .nav-link {
+    background: #494761;
+    color: #ffffff !important; }
+    .nav-item.current-menu-item .nav-link:after, .nav-item.show .nav-link:after {
+      filter: invert(1); }
+  .nav-item:hover .nav-link {
+    background: #494761;
+    color: #ffffff !important; }
+    .nav-item:hover .nav-link:after {
+      filter: invert(1); }
+
+.about-title {
+  font-family: "Playfair Display";
+  font-size: 6.5em;
+  position: relative;
+  z-index: 1; }
+  .about-title span {
+    white-space: nowrap; }
+
+.about-description {
+  max-width: 490px; }
+
+.about-img {
+  position: relative; }
+  .about-img:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translate(20px, -20px);
+    border: 1px solid #84838d; }
+
+.about .btn-more {
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+  font-size: 1.3rem; }
+
+.service-title {
+  position: relative;
+  max-width: 80%; }
+  .service-title .number {
+    position: absolute;
+    font-size: 6em;
+    top: 0;
+    left: -40px;
+    line-height: .2;
+    opacity: 0.4; }
+
+@supports (-webkit-text-stroke: 1px #494761) {
+  .service-title .number {
+    -webkit-text-stroke: 1px #494761;
+    -webkit-text-fill-color: transparent; } }
+
+.service-item {
+  max-width: 290px;
+  margin: 0 auto; }
+
+.service-description {
+  margin-top: 40px; }
+  .service-description p {
+    margin-bottom: 30px; }
+
+.service-list .service-item-wrapper:nth-child(2) {
+  margin-top: 80px; }
+
+.service-list .service-item-wrapper:nth-child(3) {
+  margin-top: 50px; }
+
+.testimonial {
+  font-size: 1.5rem; }
+  .testimonial-description {
+    font-style: italic; }
+  .testimonial-meta {
+    font-family: 'Roboto Condensed'; }
+
+.project-tabs ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto Condensed';
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.project-tabs li {
+  margin-bottom: 6px; }
+  .project-tabs li a {
+    color: #c4c4c4; }
+  .project-tabs li.active a {
+    color: #494761; }
+
+.footer {
+  background: #0F0D29;
+  color: #84838D; }
+  .footer a {
+    color: #84838D; }
+  .footer h2 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem; }
+  .footer ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0; }

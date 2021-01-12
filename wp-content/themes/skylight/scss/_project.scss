@@ -1,0 +1,22 @@
+.project-tabs{
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: 'Roboto Condensed';
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    li{
+        margin-bottom: 6px;
+        a{
+            color: #c4c4c4;
+        }
+        &.active{
+            a{
+                color: $theme-primary;
+            }
+        }
+    }
+
+}

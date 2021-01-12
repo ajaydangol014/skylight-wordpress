@@ -1,0 +1,45 @@
+.navigation-bar {
+  font-family: "Roboto Condensed";
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.dropdown-menu {
+  border: 0;
+  box-shadow: 0 5px 10px 0px transparentize($color: $black, $amount: 0.9);
+}
+
+.dropdown-item {
+  font-weight: 300;
+}
+
+.dropdown-toggle {
+  &:after {
+    background: url("../img/icons/angle-down.png");
+    border: 0;
+    background-size: cover;
+    height: 10px;
+    width: 10px;
+    position: relative;
+    top: 3px;
+  }
+}
+
+.nav-item {
+  &.current-menu-item {
+    .nav-link {
+      background: $theme-primary;
+      font-weight: 500;
+      color: $white;
+    }
+  }
+  &:hover {
+    .nav-link {
+      background: $theme-primary;
+      color: $white !important;
+    }
+  }
+}

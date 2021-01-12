@@ -1,0 +1,43 @@
+.service-title{
+    position: relative;
+    max-width: 80%;
+    .number{
+            position: absolute;
+            font-size: 6em;
+            top: 0;
+            left: -40px;
+            line-height: .2;
+            opacity: 0.4;
+        }
+}
+@supports (-webkit-text-stroke: 1px $theme-primary) {
+    .service-title {
+        .number{
+            -webkit-text-stroke: 1px $theme-primary;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+  }
+
+.service-item{
+    max-width: 290px;
+    margin: 0 auto;
+}
+
+.service-description{
+    margin-top: 40px;
+    p{
+        margin-bottom: 30px;
+    }
+}
+
+.service-list{
+    .service-item-wrapper{
+        &:nth-child(2){
+            margin-top: 80px;
+        }
+        &:nth-child(3){
+            margin-top: 50px;
+        }
+    }
+}
